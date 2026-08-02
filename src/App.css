@@ -1,0 +1,90 @@
+/* Styles for the App component will be added later. */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 20px 0;
+}
+
+.row {
+  display: flex;
+  gap: 6px;
+}
+
+.tile {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #d3d6da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tile.green {
+  background-color: green;
+  color: white;
+}
+
+.tile.yellow {
+  background-color: goldenrod;
+  color: white;
+}
+
+.tile.gray {
+  background-color: gray;
+  color: white;
+}
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.keyboard-row {
+  display: flex;
+  gap: 5px;
+}
+
+.keyboard button {
+  width: 45px;
+  height: 45px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.keyboard button:first-child {
+  margin-left: 0;
+}
+button.green {
+  background-color: green;
+  color: white;
+}
+
+button.yellow {
+  background-color: goldenrod;
+  color: white;
+}
+
+button.gray {
+  background-color: gray;
+  color: white;
+}
+.modal {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
