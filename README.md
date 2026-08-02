@@ -4,18 +4,20 @@ A simple Wordle game built with React.
 
 ## About
 
-This project is a clone of the popular Wordle game where the player has to guess a hidden word in a limited number of attempts.
+This project is a clone of the popular Wordle game where the player has to guess a hidden 5-letter word in a limited number of attempts.
 
 ## Features
 
 * Guess a 5-letter word
 * Color feedback for each guess
 * Responsive user interface
-* Built using React
+* On-screen keyboard
+* Built with React and Vite
 
 ## Tech Stack
 
 * React
+* Vite
 * JavaScript
 * HTML
 * CSS
@@ -46,13 +48,11 @@ npm install
 npm run dev
 ```
 
-The application will open in your browser at:
+Open your browser and visit:
 
 ```
 http://localhost:5173
 ```
-
-*(If you are using Create React App instead of Vite, use `npm start`.)*
 
 ## Build for Production
 
@@ -60,24 +60,26 @@ http://localhost:5173
 npm run build
 ```
 
-## Deployment
+## Deploy to GitHub Pages
+
+After committing and pushing your changes, deploy the latest build using:
 
 ```bash
 npm run deploy
 ```
 
-This will publish the `dist/` folder contents to the `gh-pages` branch.
+The application will be available at:
 
-## Project Status
-
-This project was created for learning React and improving frontend development skills.
+```
+https://barshanabhat.github.io/Wordle/
+```
 
 ## Future Improvements
 
 * Add difficulty levels
 * Dark mode
 * Keyboard animations
-* Statistics tracking
+* Statistics page
 * Daily challenge mode
 
 ## Author
