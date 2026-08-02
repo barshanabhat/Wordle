@@ -1,16 +1,87 @@
-# React + Vite
+# Wordle
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple Wordle game built with React.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a clone of the popular Wordle game where the player has to guess a hidden word in a limited number of attempts.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Guess a 5-letter word
+* Color feedback for each guess
+* Responsive user interface
+* Built using React
 
-## Expanding the Oxlint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+* React
+* JavaScript
+* HTML
+* CSS
+
+## Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/barshanabhat/Wordle.git
+```
+
+### Go to the project folder
+
+```bash
+cd Wordle
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+The application will open in your browser at:
+
+```
+http://localhost:5173
+```
+
+*(If you are using Create React App instead of Vite, use `npm start`.)*
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Deployment
+
+```bash
+npm run deploy
+```
+
+This will publish the `dist/` folder contents to the `gh-pages` branch.
+
+## Project Status
+
+This project was created for learning React and improving frontend development skills.
+
+## Future Improvements
+
+* Add difficulty levels
+* Dark mode
+* Keyboard animations
+* Statistics tracking
+* Daily challenge mode
+
+## Author
+
+**Barshana Bhattarai**
+
+GitHub: https://github.com/barshanabhat
