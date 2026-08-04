@@ -115,6 +115,13 @@ function handleKeyInput(key) {
   };
 }, []);
 
+function handlePlayAgain() {
+  setCurrentGuess("");
+  setPastGuesses([]);
+  setGameStatus("IN_PROGRESS");
+  setKeyboardStatus({});
+}
+
   return (
     <div className="app">
      <h1>Wordle</h1>
@@ -132,8 +139,10 @@ function handleKeyInput(key) {
 />
 
      <Modal
+
   gameStatus={gameStatus}
   solutionWord={solutionWord}
+  onPlayAgain={handlePlayAgain}
 />
     </div>
   );
